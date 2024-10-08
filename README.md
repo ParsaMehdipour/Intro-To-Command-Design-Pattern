@@ -20,3 +20,6 @@ of sending the request directly to the receiver. Note that the sender isn’t re
 4. The Receiver class contains some business logic. Almost any object may act as a receiver. Most commands only handle the details of how a request is passed to the receiver, while the receiver itself does the actual work.
 
 5. The Client creates and configures concrete command objects. The client must pass all of the request parameters, including a receiver instance, into the command’s constructor. After that, the resulting command may be associated with one or multiple senders.
+
+Image and Description source: Dive Into DESIGN PATTERNS by Alexander Shvets <br/>
+Link to the book : https://refactoring.guru/design-patterns/book
